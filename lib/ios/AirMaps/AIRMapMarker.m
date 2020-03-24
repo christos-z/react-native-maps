@@ -259,7 +259,7 @@ NSInteger const AIR_CALLOUT_OPEN_ZINDEX_BASELINE = 999;
     if (marker.onPress) marker.onPress(event);
     if (marker.map.onMarkerPress) marker.map.onMarkerPress(event);
 
-    [marker.map selectAnnotation:marker animated:NO];
+//     [marker.map selectAnnotation:marker animated:NO];
 }
 
 - (void)hideCalloutView
